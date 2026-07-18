@@ -1,1 +1,1 @@
-# SPLMINER
+# SLPMINER
