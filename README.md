@@ -2,7 +2,7 @@
 
 ## Overview
 
-SLPMiner is a Python implementation of a **PrefixSpan-inspired sequential pattern mining** algorithm that introduces a **Length Decreasing Support Constraint (LDSC)**. Unlike traditional approaches that use a fixed minimum support for all pattern lengths, SLPMiner dynamically lowers the support threshold as pattern length increases, enabling the discovery of longer and more informative sequential patterns.
+SLPMiner is a Python implementation of a **sequential pattern mining** algorithm that introduces a **Length Decreasing Support Constraint (LDSC)**. Unlike traditional approaches that use a fixed minimum support for all pattern lengths, SLPMiner dynamically lowers the support threshold as pattern length increases, enabling the discovery of longer and more informative sequential patterns.
 
 The project automatically downloads benchmark datasets from the SPMF repository, mines sequential patterns using both **fixed support** and **LDSC**, and visualizes the results through comparative graphs.
 
@@ -10,7 +10,6 @@ The project automatically downloads benchmark datasets from the SPMF repository,
 
 ## Features
 
-* PrefixSpan-inspired recursive sequential pattern mining
 * Dynamic Length Decreasing Support Constraint (LDSC)
 * Automatic SPMF dataset download
 * Comparison with traditional fixed-support mining
